@@ -22,9 +22,9 @@
 
 ```json
 {
-	"id": "ReporteSolicitado", 
-	"descripcion": "Reporte solicitado",
-	"nombre": "Reporte solicitado"
+	"descripcion": "descripcion",
+	"id": "id",
+	"nombre": "nombre"
 }
 ```
 

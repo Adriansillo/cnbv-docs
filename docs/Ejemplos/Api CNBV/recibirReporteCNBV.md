@@ -22,26 +22,82 @@
 
 ```json
 {
-	"solicitudReporte":{
-	  "id": "5349b4ddd2781d08c09890a1"
-	}
-	"Dato":[
-		{
-			"Concepto":"100000000000",
-			"Monto":1000000.0,
-			"Moneda":1
+	"id": "string",
+	"cveConcepto": "string",
+	"cveMoneda": 0,
+	"datoImporte": "string",
+	"solicitudReporte": {
+		"id": "string",
+		"estadoReporte": {
+			"id": "string",
+			"descripcion": "string",
+			"nombre": "string"
 		},
-		{
-			"Concepto":"110000000000",
-			"Monto":200000.0,
-			"Moneda":1
+		"fechaRecepcion": "string",
+		"numeroEnvios": 0,
+		"reporte": {
+			"id": "string",
+			"fechaLimiteRecepcion": "string",
+			"fechaSolicitud": "string",
+			"periodo": {
+				"id": "string",
+				"fechaFin": "string",
+				"fechaInicio": "string"
+			},
+			"tipoFlujo": {
+				"id": "string",
+				"descripcion": "string",
+				"nombre": "string"
+			},
+			"tipoReporte": {
+				"id": "string",
+				"descripcion": "string",
+				"nombre": "string"
+			},
+			"templateReporteCatalogoConceptos": {
+				"id": "string",
+				"periodicidad": "string",
+				"vigenciaInicio": "string",
+				"vigenciaFin": "string",
+				"TemplateReporte": {
+					"id": "string",
+					"version": 0,
+					"descripcion": "string",
+					"descripcionCorta": "string",
+					"elementosPorPagina": 0,
+					"maxErrores": 0,
+					"columnas": [
+						{
+							"id": "string",
+							"nombre": "string",
+							"min": "string",
+							"max": "string",
+							"requerida": true,
+							"formato": "string",
+							"catalogoRelacionado": "string"
+						}
+					]
+				},
+				"catalogoConceptos": {
+					"id": "string",
+					"version": 0,
+					"conceptos": [
+						{
+							"id": "string",
+							"concepto": "string",
+							"ordenPresentacion": 0,
+							"conceptoPadreId": "string"
+						}
+					]
+				}
+			}
 		},
-		{
-			"Concepto":"110100000000",
-			"Monto":50000.0,
-			"Moneda":1
+		"tipoFlujo": {
+			"id": "string",
+			"descripcion": "string",
+			"nombre": "string"
 		}
-	]
+	}
 }
 ```
 ## Respuesta exitosa
