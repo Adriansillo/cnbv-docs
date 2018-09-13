@@ -109,14 +109,83 @@
 **Contenido de ejemplo**
 
 ```json
-{ 
-	"id": "5349b4ddd2781d08c09890a1",
-	"cadenaOriginal": "5349b4ddd2781d08c09890a1|Solicitado|CAT_MINIMO|201808|Prestadero|2018-09-01",
-	"fechaAcuse": "2018-09-01",
-	"selloDigital": "5349b4ddd2781d08c09890a15349b4ddd2781d08c09890a15349b4ddd2781d08c09890a1",
-	"solicitudReporte":{
-		"id": "5349b4ddd2781d08c09890a1" 
-	} 
+{
+  "id": "string",
+  "cadenaOriginal": "string",
+  "fechaAcuse": "string",
+  "selloDigital": "string",
+  "solicitudReporte": {
+    "id": "string",
+    "estadoReporte": {
+      "id": "string",
+      "descripcion": "string",
+      "nombre": "string"
+    },
+    "fechaRecepcion": "string",
+    "numeroEnvios": 0,
+    "reporte": {
+      "id": "string",
+      "fechaLimiteRecepcion": "string",
+      "fechaSolicitud": "string",
+      "periodo": {
+        "id": "string",
+        "fechaFin": "string",
+        "fechaInicio": "string"
+      },
+      "tipoFlujo": {
+        "id": "string",
+        "descripcion": "string",
+        "nombre": "string"
+      },
+      "tipoReporte": {
+        "id": "string",
+        "descripcion": "string",
+        "nombre": "string"
+      },
+      "templateReporteCatalogoConceptos": {
+        "id": "string",
+        "periodicidad": "string",
+        "vigenciaInicio": "string",
+        "vigenciaFin": "string",
+        "TemplateReporte": {
+          "id": "string",
+          "version": 0,
+          "descripcion": "string",
+          "descripcionCorta": "string",
+          "elementosPorPagina": 0,
+          "maxErrores": 0,
+          "columnas": [
+            {
+              "id": "string",
+              "nombre": "string",
+              "min": "string",
+              "max": "string",
+              "requerida": true,
+              "formato": "string",
+              "catalogoRelacionado": "string"
+            }
+          ]
+        },
+        "catalogoConceptos": {
+          "id": "string",
+          "version": 0,
+          "conceptos": [
+            {
+              "id": "string",
+              "concepto": "string",
+              "ordenPresentacion": 0,
+              "conceptoPadreId": "string"
+            }
+          ]
+        }
+      }
+    },
+    "tipoFlujo": {
+      "id": "string",
+      "descripcion": "string",
+      "nombre": "string"
+    }
+  }
 }
 ```
 
