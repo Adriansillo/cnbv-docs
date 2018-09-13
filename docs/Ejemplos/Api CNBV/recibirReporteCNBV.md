@@ -21,84 +21,20 @@
 **Datos de ejemplo** Todos los campos deben ser enviados.
 
 ```json
-{
+[
+	{
 	"id": "string",
 	"cveConcepto": "string",
 	"cveMoneda": 0,
-	"datoImporte": "string",
-	"solicitudReporte": {
-		"id": "string",
-		"estadoReporte": {
-			"id": "string",
-			"descripcion": "string",
-			"nombre": "string"
-		},
-		"fechaRecepcion": "string",
-		"numeroEnvios": 0,
-		"reporte": {
-			"id": "string",
-			"fechaLimiteRecepcion": "string",
-			"fechaSolicitud": "string",
-			"periodo": {
-				"id": "string",
-				"fechaFin": "string",
-				"fechaInicio": "string"
-			},
-			"tipoFlujo": {
-				"id": "string",
-				"descripcion": "string",
-				"nombre": "string"
-			},
-			"tipoReporte": {
-				"id": "string",
-				"descripcion": "string",
-				"nombre": "string"
-			},
-			"templateReporteCatalogoConceptos": {
-				"id": "string",
-				"periodicidad": "string",
-				"vigenciaInicio": "string",
-				"vigenciaFin": "string",
-				"TemplateReporte": {
-					"id": "string",
-					"version": 0,
-					"descripcion": "string",
-					"descripcionCorta": "string",
-					"elementosPorPagina": 0,
-					"maxErrores": 0,
-					"columnas": [
-						{
-							"id": "string",
-							"nombre": "string",
-							"min": "string",
-							"max": "string",
-							"requerida": true,
-							"formato": "string",
-							"catalogoRelacionado": "string"
-						}
-					]
-				},
-				"catalogoConceptos": {
-					"id": "string",
-					"version": 0,
-					"conceptos": [
-						{
-							"id": "string",
-							"concepto": "string",
-							"ordenPresentacion": 0,
-							"conceptoPadreId": "string"
-						}
-					]
-				}
-			}
-		},
-		"tipoFlujo": {
-			"id": "string",
-			"descripcion": "string",
-			"nombre": "string"
-		}
+	"datoImporte": "string"
+	},
+	{
+	"id": "string2",
+	"cveConcepto": "string",
+	"cveMoneda": 0,
+	"datoImporte": "string"
 	}
-}
+]
 ```
 ## Respuesta exitosa
 
@@ -110,82 +46,97 @@
 
 ```json
 {
-  "id": "string",
-  "cadenaOriginal": "string",
-  "fechaAcuse": "string",
-  "selloDigital": "string",
-  "solicitudReporte": {
-    "id": "string",
-    "estadoReporte": {
-      "id": "string",
-      "descripcion": "string",
-      "nombre": "string"
-    },
-    "fechaRecepcion": "string",
-    "numeroEnvios": 0,
-    "reporte": {
-      "id": "string",
-      "fechaLimiteRecepcion": "string",
-      "fechaSolicitud": "string",
-      "periodo": {
-        "id": "string",
-        "fechaFin": "string",
-        "fechaInicio": "string"
-      },
-      "tipoFlujo": {
-        "id": "string",
-        "descripcion": "string",
-        "nombre": "string"
-      },
-      "tipoReporte": {
-        "id": "string",
-        "descripcion": "string",
-        "nombre": "string"
-      },
-      "templateReporteCatalogoConceptos": {
-        "id": "string",
-        "periodicidad": "string",
-        "vigenciaInicio": "string",
-        "vigenciaFin": "string",
-        "TemplateReporte": {
-          "id": "string",
-          "version": 0,
-          "descripcion": "string",
-          "descripcionCorta": "string",
-          "elementosPorPagina": 0,
-          "maxErrores": 0,
-          "columnas": [
-            {
-              "id": "string",
-              "nombre": "string",
-              "min": "string",
-              "max": "string",
-              "requerida": true,
-              "formato": "string",
-              "catalogoRelacionado": "string"
-            }
-          ]
-        },
-        "catalogoConceptos": {
-          "id": "string",
-          "version": 0,
-          "conceptos": [
-            {
-              "id": "string",
-              "concepto": "string",
-              "ordenPresentacion": 0,
-              "conceptoPadreId": "string"
-            }
-          ]
-        }
-      }
-    },
-    "tipoFlujo": {
-      "id": "string",
-      "descripcion": "string",
-      "nombre": "string"
-    }
-  }
+	"cadenaOriginal": "cadenaOriginal",
+	"fechaAcuse": "2000-01-23",
+	"id": "id",
+	"selloDigital": "selloDigital",
+	"solicitudReporte": {
+		"numeroEnvios": 6,
+		"estadoReporte": {
+			"descripcion": "descripcion",
+			"id": "id",
+			"nombre": "nombre"
+		},
+		"id": "id",
+		"tipoFlujo": {
+			"descripcion": "descripcion",
+			"id": "id",
+			"nombre": "nombre"
+		},
+		"fechaRecepcion": "2000-01-23",
+		"reporte": {
+			"fechaSolicitud": "2000-01-23",
+			"periodo": {
+				"fechaInicio": "2000-01-23",
+				"id": "id",
+				"fechaFin": "2000-01-23"
+			},
+			"templateReporteCatalogoConceptos": {
+				"periodicidad": "periodicidad",
+				"vigenciaFin": "vigenciaFin",
+				"TemplateReporte": {
+					"descripcion": "descripcion",
+					"elementosPorPagina": 6,
+					"maxErrores": 1,
+					"descripcionCorta": "descripcionCorta",
+					"id": "id",
+					"version": 0,
+					"columnas": [
+						{
+							"min": "min",
+							"max": "max",
+							"formato": "formato",
+							"requerida": true,
+							"id": "id",
+							"catalogoRelacionado": "catalogoRelacionado",
+							"nombre": "nombre"
+						},
+						{
+							"min": "min",
+							"max": "max",
+							"formato": "formato",
+							"requerida": true,
+							"id": "id",
+							"catalogoRelacionado": "catalogoRelacionado",
+							"nombre": "nombre"
+						}
+					]
+				},
+				"catalogoConceptos": {
+					"conceptos": [
+						{
+							"concepto": "concepto",
+							"ordenPresentacion": 5,
+							"id": "id",
+							"conceptoPadreId": "conceptoPadreId"
+						},
+						{
+							"concepto": "concepto",
+							"ordenPresentacion": 5,
+							"id": "id",
+							"conceptoPadreId": "conceptoPadreId"
+						}
+					],
+					"id": "id",
+					"version": 5
+				},
+				"vigenciaInicio": "vigenciaInicio",
+				"id": "id"
+			},
+			"fechaLimiteRecepcion": "2000-01-23",
+			"tipoReporte": {
+				"descripcion": "descripcion",
+				"id": "id",
+				"nombre": "nombre"
+			},
+			"id": "id",
+			"tipoFlujo": {
+				"descripcion": "descripcion",
+				"id": "id",
+				"nombre": "nombre"
+			}
+		}
+	}
 }
 ```
 
