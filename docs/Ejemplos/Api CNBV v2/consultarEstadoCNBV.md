@@ -1,5 +1,10 @@
 # Consultar estado
 
+.. Advertencia::
+
+    Esta versión del API es **obsoleto**.
+    Por favor, consultar el siguiente enlace :doc:``.
+	
 **URL** : `/api/solicitudReportes/{id}/estadoReporte`
 
 **Método** : `GET`

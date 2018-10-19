@@ -1,5 +1,12 @@
 # Consultar información del reporte
 
+
+.. Advertencia::
+
+    Esta versión del API es **obsoleto**.
+    Por favor, consultar el siguiente enlace :doc:``.
+	
+
 **URL** : `/api/reportes/{id}`
 
 **Método** : `GET`
