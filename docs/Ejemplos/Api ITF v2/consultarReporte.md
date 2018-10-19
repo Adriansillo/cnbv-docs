@@ -24,28 +24,13 @@
 **Contenido de ejemplo**
 
 ```json
-{
-	"solicitudReporte":{
-	  "id": "5349b4ddd2781d08c09890a1"
-	}
-	"Dato":[
-		{
-			"Concepto":"100000000000",
-			"Monto":1000000.0,
-			"Moneda":1
-		},
-		{
-			"Concepto":"110000000000",
-			"Monto":200000.0,
-			"Moneda":1
-		},
-		{
-			"Concepto":"110100000000",
-			"Monto":50000.0,
-			"Moneda":1
-		}
-	]
-}
+[
+  [
+    "string",
+    0,
+    0
+  ]
+]
 ```
 
 ## Respuesta de error

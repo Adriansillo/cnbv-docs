@@ -1,5 +1,10 @@
 # Crear solicitud reporte
 
+.. Advertencia::
+
+    Esta versión del API es **obsoleto**.
+    Por favor, consultar el siguiente enlace :doc:``.
+	
 Se crea la solicitud del reporte en el servidor de la ITF
 
 **URL** : `/api/solicitudReportes`
