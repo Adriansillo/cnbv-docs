@@ -1,25 +1,24 @@
-# Consultar estado
+# Notificar estado
 
-.. Advertencia::
+Recibe la notificación del estado del reporte en el servidor de la ITF
 
-    Esta versión del API es **obsoleto**.
-    Por favor, consultar el siguiente enlace :doc:``.
-	
 **URL** : `/api/solicitudReportes/{id}/estadoReporte`
 
-**Método** : `GET`
+**Método** : `PUT`
 
 **Autenticación requerida** : Si
 
-**Parámetros de URL** Todos los parámetros deben ser enviados.
+**Datos de ejemplo** Todos los campos deben ser enviados.
 
-| Nombre|Tipo|Descripción|
-| :--: |:--:| :--:|
-| ```id ```| ```integer``` |Identificador de la solicitud del reporte|
+```json
+{
+  "estadoReporte": "string"
+}
+```
 
 ## Respuesta exitosa
 
-**Condición** : Si se obtuvo el estado del reporte
+**Condición** : Si todo está bien y se actualizó la solicitud en el servidor de la ITF.
 
 **Código** : `200 Ok`
 
@@ -27,9 +26,11 @@
 
 ```json
 {
-	"descripcion": "descripcion",
-	"id": "id",
-	"nombre": "nombre"
+  "idSolicitudReporte": "string",
+  "cadenaOriginal": "string",
+  "selloDigital": "string",
+  "estadoReporte": "string",
+  "fechaAcuse": "string"
 }
 ```
 
@@ -43,7 +44,7 @@
 
 **Content** : `{}`
 
-### O
+### Or
 
 **Condición** : Si
 
@@ -53,7 +54,7 @@
 
 **Content** : `{}`
 
-### O
+### Or
 
 **Condición** : Si
 

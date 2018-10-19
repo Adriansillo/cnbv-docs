@@ -1,5 +1,10 @@
 # Notificar estado
 
+.. Advertencia::
+
+    Esta versión del API es **obsoleto**.
+    Por favor, consultar el siguiente enlace :doc:``.
+	
 Recibe la notificación del estado del reporte en el servidor de la ITF
 
 **URL** : `/api/solicitudReportes/{id}/estadoReporte`

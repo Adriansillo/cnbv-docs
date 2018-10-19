@@ -1,5 +1,10 @@
 # Recibir reporte
 
+.. Advertencia::
+
+    Esta versión del API es **obsoleto**.
+    Por favor, consultar el siguiente enlace :doc:``.
+	
 **URL** : `/api/solicitudReportes/{id}/datos`
 
 **Método** : `PUT`

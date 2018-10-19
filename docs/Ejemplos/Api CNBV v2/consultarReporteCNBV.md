@@ -1,11 +1,6 @@
-# Consultar estado
+# Consultar reporte
 
-.. Advertencia::
-
-    Esta versión del API es **obsoleto**.
-    Por favor, consultar el siguiente enlace :doc:``.
-	
-**URL** : `/api/solicitudReportes/{id}/estadoReporte`
+**URL** : `/api/solicitudReportes/{id}/datos`
 
 **Método** : `GET`
 
@@ -16,21 +11,34 @@
 | Nombre|Tipo|Descripción|
 | :--: |:--:| :--:|
 | ```id ```| ```integer``` |Identificador de la solicitud del reporte|
+| ```page```| ```integer``` |Número de página solicitada|
+| ```size```| ```integer``` |Número de registros de una página|
 
 ## Respuesta exitosa
 
-**Condición** : Si se obtuvo el estado del reporte
+**Condición** : Si se obtuvo la información solicitada del reporte
 
 **Código** : `200 Ok`
+
+**Parámetros Header** Todos los parámetros deben ser enviados.
+
+| Nombre|Tipo|Descripción|
+| :--: |:--:| :--:|
+| ```links```| ```string``` |Links de navegación|
 
 **Contenido de ejemplo**
 
 ```json
-{
-	"descripcion": "descripcion",
-	"id": "id",
-	"nombre": "nombre"
-}
+[
+  [
+    "string",
+    0,
+    0,
+    {
+      "errores": "string"
+    }
+  ]
+]
 ```
 
 ## Respuesta de error
