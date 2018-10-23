@@ -1,9 +1,9 @@
 # API CNBV 
 
 
-## [Flujo de una solicitud](01-Flujo)
-## [API expuesta por las ITF](Ejemplos/Api%20ITF%20v2/Api)
-## [API expuesta por las CNBV](Ejemplos/Api%20CNBV%20v2/Api)
+## [Flujo de una solicitud](01-Flujo.md)
+## [API expuesta por las ITF](Ejemplos/ApiITFv2/Api.md)
+## [API expuesta por las CNBV](Ejemplos/ApiCNBVv2/Api.md)
 
 
 
