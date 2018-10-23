@@ -1,4 +1,7 @@
 site_name: CNBV
 nav:
     - Home: index.md
+    - Flujo solicitud: 01-Flujo.md
+    - API CNBV: /Ejemplos/ApiCNBVv2/Api.md
+    - API ITF: /Ejemplos/ApiITFv2/Api.md
 theme: readthedocs
