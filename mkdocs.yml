@@ -1,0 +1,4 @@
+site_name: CNBV
+nav:
+    - Home: index.md
+theme: readthedocs
