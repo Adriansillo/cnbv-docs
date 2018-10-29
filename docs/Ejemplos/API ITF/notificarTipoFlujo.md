@@ -1,12 +1,18 @@
 # Notificar estado
 
-Recibe la notificación del estado del reporte en el servidor de la ITF
+Recibe la notificación del cambio de flujo a seguir para el reporte solicitado
 
-**URL** : `/api/solicitudReportes/{id}/estadoReporte`
+**URL** : `/solicitudReportes/{id}/flujoReporte`
 
 **Método** : `PUT`
 
 **Autenticación requerida** : Si
+
+**Parámetros de URL** Todos los parámetros deben ser enviados.
+
+| Nombre|Tipo|Descripción|
+| :--: |:--:| :--:|
+| ```id ```| ```integer``` |Identificador de la solicitud del reporte|
 
 **Datos de ejemplo** Todos los campos deben ser enviados.
 
@@ -18,7 +24,7 @@ Recibe la notificación del estado del reporte en el servidor de la ITF
 
 ## Respuesta exitosa
 
-**Condición** : Si todo está bien y se actualizó la solicitud en el servidor de la ITF.
+**Condición** : Si todo está bien y se actualizó el tipo de flujo de la solicitud en el servidor de la ITF.
 
 **Código** : `200 Ok`
 

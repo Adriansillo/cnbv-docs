@@ -1,6 +1,8 @@
 # Consultar reporte
 
-**URL** : `/api/solicitudReportes/{id}/datos`
+Obtiene la información disponible de un reporte en el servidor de la ITF
+
+**URL** : `/solicitudReportes/{id}/datos`
 
 **Método** : `GET`
 
@@ -20,6 +22,12 @@
 **Condición** : Si se obtuvo la información solicitada del reporte
 
 **Código** : `200 Ok`
+
+**Parámetros Header** Todos los parámetros deben ser enviados.
+
+| Nombre|Tipo|Descripción|
+| :--: |:--:| :--:|
+| ```links```| ```string``` |Links de navegación|
 
 **Contenido de ejemplo**
 

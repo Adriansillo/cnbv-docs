@@ -2,7 +2,7 @@
 
 Se crea la solicitud del reporte en el servidor de la ITF
 
-**URL** : `/api/solicitudReportes`
+**URL** : `/solicitudReportes`
 
 **Método** : `POST`
 

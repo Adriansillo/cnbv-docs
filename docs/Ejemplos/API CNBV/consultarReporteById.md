@@ -1,6 +1,6 @@
-# Consultar información de la solicitud de un reporte con base al identificador
+# Consultar información de la solicitud de un reporte 
 
-Consulta la información de la solicitud de un reporte
+Consulta la información de la solicitud de un reporte con base al identificador
 
 **URL** : `/solicitudReportes/{id}`
 
