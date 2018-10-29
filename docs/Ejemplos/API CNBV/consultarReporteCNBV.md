@@ -1,6 +1,8 @@
 # Consultar reporte
 
-**URL** : `/api/solicitudReportes/{id}/datos`
+Obtiene la información de un reporte y los errores correspondientes obtenidos de la fase de validación
+
+**URL** : `/solicitudReportes/{id}/datos`
 
 **Método** : `GET`
 

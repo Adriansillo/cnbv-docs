@@ -1,8 +1,8 @@
 # Notificar estado
 
-Recibe la notificación del estado del reporte en el servidor de la ITF
+Recibe la notificación del estado del reporte que se encuentra en el servidor de la ITF
 
-**URL** : `/api/solicitudReportes/{id}/estadoReporte`
+**URL** : `/solicitudReportes/{id}/estadoReporte`
 
 **Método** : `PUT`
 

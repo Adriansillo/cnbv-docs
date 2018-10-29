@@ -1,6 +1,8 @@
 # Recibir reporte
 
-**URL** : `/api/solicitudReportes/{id}/datos`
+Recibe los datos de un reporte regulatorio según la especificación de la solicitud
+
+**URL** : `/solicitudReportes/{id}/datos`
 
 **Método** : `PUT`
 
@@ -16,7 +18,7 @@
 
 | Nombre|Tipo|Descripción|
 | :--: |:--:| :--:|
-| ```reporteCompletado```| ```boolean``` |Especifica si el paquete de datos es el ultimo y por tanto la transferencia del reporte se ha completado|
+| ```reporteCompletado```| ```boolean``` |Especifica si el paquete de datos es el último y por tanto la transferencia del reporte se ha completado|
 
 **Datos de ejemplo** Todos los campos deben ser enviados.
 
@@ -25,10 +27,7 @@
   [
     "string",
     0,
-    0,
-    {
-      "errores": "string"
-    }
+    0
   ]
 ]
 ```
