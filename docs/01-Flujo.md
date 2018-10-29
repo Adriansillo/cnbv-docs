@@ -18,7 +18,7 @@ En caso de que la ITF no ejecute el paso 2 del **Flujo Ideal** en el tiempo que 
 
 * **2.-** La CNBV actualiza el "TipoFlujo" a "ENVIO" en el servidor de la ITF ([PUT /solicitudReportes/{id}/tipoFlujo](Ejemplos/API ITF/notificarTipoFlujo.md))
 
-Una vez actualizado el "TipoFlujo" se deberá continuar con el **Flujo 2 "Envio"**
+Una vez actualizado el "TipoFlujo" de la solicitud, se deberá continuar con el **Flujo 2 "Envio"**
 
 
 ## Flujo 2 "Envio":  La ITF envía los datos del reporte al servidor de la CNBV

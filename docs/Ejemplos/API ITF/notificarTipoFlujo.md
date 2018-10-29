@@ -1,4 +1,4 @@
-# Notificar estado
+# Notificar cambio de flujo
 
 Recibe la notificación del cambio de flujo a seguir para el reporte solicitado
 
